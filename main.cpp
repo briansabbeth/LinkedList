@@ -6,6 +6,10 @@ using namespace std;
 
 int main()
 {
+
+//////SEEM TO BE HAVING A LITTLE TROUBLE WITH GIT AND THE DELETED SINGLE FILES
+
+
     DoubleLinkedList<int> d;
 
     for(int i = 0;i<10;++i)

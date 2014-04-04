@@ -119,8 +119,6 @@ DoubleLinkedList<Obj>::removeNode(Obj obj)
     {
         std::cout<<"deleted obj was unfound\n";
     }
-
-
     else
     {
         std::cout<<"found \n";
@@ -168,7 +166,7 @@ template<class Obj>
 void
 DoubleLinkedList<Obj>::printReverse()
 {
-//base:
+
     curr = tail;
     while (curr!=NULL)
     {
@@ -183,17 +181,13 @@ void
 DoubleLinkedList<Obj>::wipe()
 {
     curr = head;
-
-
     while(curr!= NULL)
     {
         temp = curr;
         curr = curr->next;
         delete temp;
     }
-
     delete curr;
-
 }
 
 
