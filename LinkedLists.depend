@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1396579682 source:/home/segfault/Documents/LinkedLists/main.cpp
+	<iostream>
+	"DoubleLinkedList.h"
+	"DoubleLinkedList.cpp"
+
+1396580801 source:/home/segfault/Documents/LinkedLists/DoubleLinkedList.cpp
+	"DoubleLinkedList.h"
+
+1396577621 /home/segfault/Documents/LinkedLists/DoubleLinkedList.h
+	<string.h>
+	<iostream>
+	<cstdlib>
+
+1396580752 /home/segfault/Documents/LinkedLists/DoubleLinkedList.cpp
+	"DoubleLinkedList.h"
+
